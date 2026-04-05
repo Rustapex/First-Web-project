@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* header */
+        .header{
+            display : flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu{
+            display :flex;
+            gap : 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+      <div>
+        <h1>stock logo</h1>
+      </div>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div>
+        <button onclick="login()">Login</button>
+        <button>Sign Up</button>
+      </div>
+    </header>
+    <main></main>
+    
+</body>
+<script>
+    function login(){
+        alert("로그인 페이지로 이동합니다.");
+        window.location.href = "./login.html";
+    }
+</script>
+</html>
